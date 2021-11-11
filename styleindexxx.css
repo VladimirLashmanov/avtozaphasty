@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+}
+
+
+
+.topnav {
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    width: 1920px;
+    height: 36px;
+    left: 0px;
+    top: 0px;
+    background-color: #0F2438;
+    overflow: hidden;
+}
+.topnav a {
+
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.topnav a:hover {
+    background-color: #005BB9;
+    color:white;
+}
+/*================================================*/
+/* Dropdown Button */
+.dropbtn {
+    font-family: 'Roboto', sans-serif;
+    background-color: #0F2438;
+    color: white;
+    border: none;
+    font-size: 14px;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:   white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #005BB9;}
+/*==========================*/
+
+.logoone {
+margin-top: 19px;
+    float: left; /*Задаем обтекание*/
+    line-height:100px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 30px;
+    background: whitesmoke;
+    color: #0F2438;
+    width: 200px; /*Фиксируем ширину блока*/
+    text-align: right; /*Центрируем текст по горизонтали*/
+}
+
+.text {
+margin-top: 19px;
+    float:left ; /*Задаем обтекание*/
+    line-height:20px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 15px;
+    background: whitesmoke;
+    color: #0F2438;
+    width: 200px; /*Фиксируем ширину блока*/
+
+   /*Центрируем текст по горизонтали*/
+}
+
+.time {
+    margin-top: 19px;
+    float:left ; /*Задаем обтекание*/
+    line-height:92px;/*Высота строки +  верт. центрирования текста*/
+    font-size: 15px;
+    background: whitesmoke;
+    color: #0F2438;
+    width: 380px; /*Фиксируем ширину блока*/
+}
+.nine {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
